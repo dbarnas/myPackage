@@ -2,7 +2,7 @@
 
 ![what like it's hard meme](images/like_its_hard.jpg)
 
-## A basic guide to quickly making a package using the roxygen2 package
+## A basic guide to quickly making a package using the roxygen2 package in RStudio
 
 
 ### 1. Open RStudio and install *devtools* and *roxygen2* packages
