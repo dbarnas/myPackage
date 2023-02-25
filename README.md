@@ -89,7 +89,6 @@ Type the following line by line in your Terminal
 
 ![GitHub main page](images/github_initialized_mainpage.jpg)
 
-![Succes Kid](images/success_kid.jpg)
 
 ### 6. Write your first function
 
@@ -140,6 +139,9 @@ Terminal:
 
     devtools::install_github("dbarnas/myPackage")  
     library(myPackage)  
+
+
+![Succes Kid](images/success_kid.jpg)
 
 ## Resources
 
