@@ -8,6 +8,20 @@
 ## A basic guide to quickly making a package using the roxygen2 package in RStudio
 
 
+## Why are packages useful?
+
+#### 1. Keep common functions for similar use together
+
+#### 2. Functions avoid reinventing the wheel and repititious coding throughout your scripts
+
+#### 3. Declutter your scripts by turning many lines of code into simple single lines of code
+
+#### 4. Pushing to GitHub allows collaborative input to make your functions better/more useful/more generlized (when helpful)
+
+#### 5. CRAN packages (peer-reviewed) can fill a need in the R community, benefitting more than just your own code
+
+## Let's build!
+
 ### 1. Open RStudio and install *devtools* and *roxygen2* packages
 
 In console:  
