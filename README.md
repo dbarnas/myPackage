@@ -135,6 +135,23 @@ Terminal:
     git commit -m "create first function"
     git push
 
+Git Tab:
+
+- Click on the Git Tab
+
+![git tab](images/git_tab.jpg)
+
+- Click the boxes of any files you want to update. Boxes should show a check mark once selected
+
+![git add selected](images/git_add_selected.jpg)
+
+- Select Commit - a new window will pop up
+
+![commit message](images/commit_message.jpg)
+
+- Type your message then click Commit. Click Push (or green up arrow) to send your files to GitHub.
+
+
 ### 10. install and load your package (in the Console)
 
     devtools::install_github("dbarnas/myPackage")  
