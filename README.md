@@ -20,6 +20,8 @@
 
 #### 5. CRAN packages (peer-reviewed) can fill a need in the R community, benefitting more than just your own code
 
+![thank you meme](images/thankyou_meme.jpg)
+
 ## Let's build!
 
 ### 1. Open RStudio and install *devtools* and *roxygen2* packages
