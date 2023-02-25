@@ -128,8 +128,15 @@ Check that NAMESPACE has been generated and updated with your function
 
 ![namespace update](images/namespace_update.jpg)
 
+### 9. Push package updates to GitHub through Terminal or Git tab
 
-### 9. install and load your package
+Terminal:
+
+    git add *
+    git commit -m "create first function"
+    git push
+
+### 10. install and load your package
 
     devtools::install_github("dbarnas/myPackage")  
     library(myPackage)  
