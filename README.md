@@ -1,5 +1,8 @@
 # How to create an R package
 
+*Author: Danielle Barnas*
+*Created February 25, 2023*
+
 ![what like it's hard meme](images/like_its_hard.jpg)
 
 ## A basic guide to quickly making a package using the roxygen2 package in RStudio
