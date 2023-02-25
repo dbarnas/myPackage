@@ -135,11 +135,12 @@ Terminal:
     git commit -m "create first function"
     git push
 
-### 10. install and load your package
+### 10. install and load your package (in the Console)
 
     devtools::install_github("dbarnas/myPackage")  
     library(myPackage)  
 
+![load and use package](images/load_package.jpg)
 
 ![Succes Kid](images/success_kid.jpg)
 
