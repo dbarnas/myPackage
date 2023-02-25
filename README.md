@@ -36,6 +36,7 @@ DESCRIPTION: metadata about the package, including the package name and descript
     
 ![description](images/mooreasgd_description.jpg)
 
+(We can delete the current R script "hello" and also the NAMESPACE for now. NAMESPACE will be generated again when we build our package later)
 
 ### 4. Create a repository on GitHub with the same package name
 
@@ -51,6 +52,10 @@ Type in the same repository name
 
 ![create repository](images/create_repo_same_name.jpg)
 
+GitHub will give instructions on how to initialize a new repository in your Terminal (we'll come back to this in just a moment)
+
+![github instructions](images/github_instructions_commit.jpg)
+
 ### 5. Put your new project on GitHub for version control
 
 In RStudio: Tools > Version Control > Project Setup
@@ -65,7 +70,6 @@ Restart RStudio when prompted
 
 ![restart RStudio](images/restart_rstudio.jpg)
 
-
 Open your Terminal in RStudio
 
 ![open Terminal](images/terminal_rstudio.jpg)
@@ -76,12 +80,16 @@ Type the following line by line in your Terminal
     git add *
     git commit -m "first commit"
     git branch -M main
-    git remote add origin git@github.com:USERNAME/PackageName.git
+    git remote add origin https://github.com/dbarnas/myPackage.git
     git push -u origin main
 
+![git line by line](images/git_init_full.jpg)
 
+![git successful push](images/complete_git_init.jpg)
 
+![GitHub main page](images/github_initialized_mainpage.jpg)
 
+![Succes Kid](images/success_kid.jpg)
 
 ### 6. Write your first function
 
@@ -93,14 +101,38 @@ Open a new .R file
 
 ![script example](images/mooreasgd_ex_function.jpg)
 
+    #' my_function
+    #'
+    #' This function will add two parameters together and return the sum
+    #'
+    #' @param parameter_one Numerical value added to parameter_two
+    #' @param parameter_two Numerical value added to param_one
+    #' return Sum of two parameters will be returned
+    #' @export
+    my_function <- function(parameter_one, parameter_two){
+    
+    my_sum <- parameter_one + parameter_two
+    
+    return(my_sum)
+    }
+
+### 7. Save your script (same name as your function)
+
+![save script](images/save_as.jpg)
+
+### 8. Build your package
+
+    devtools::document()
+
+Check that NAMESPACE has been generated and updated with your function
+
+![namespace update](images/namespace_update.jpg)
 
 
+### 9. install and load your package
 
-
-
-
-
-
+    devtools::install_github("dbarnas/myPackage")  
+    library(myPackage)  
 
 ## Resources
 
