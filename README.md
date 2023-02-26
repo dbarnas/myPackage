@@ -180,7 +180,7 @@ roxygen2 syntax yields useful function documentation
 
     ?my_function
 
-![function documentation](function_documentation.jpg)
+![function documentation](images/function_documentation.jpg)
 
 
 ### 11. Revel in your success!!!
