@@ -67,8 +67,6 @@ Type in the same repository name
 - check for correct capitalization  
 - do *not* initialize the repository with a README file, .gitignore, or license
 
-![name repository](images/name_repository.jpg)
-
 ![create repository](images/create_repo_same_name.jpg)
 
 GitHub will give instructions on how to initialize a new repository in your Terminal (we'll come back to this in just a moment)
