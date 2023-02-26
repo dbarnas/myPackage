@@ -176,6 +176,15 @@ Git Tab:
 
 ![load and use package](images/load_package.jpg)
 
+roxygen2 syntax yields useful function documentation
+
+    ?my_function
+
+![function documentation](function_documentation.jpg)
+
+
+### 11. Revel in your success!!!
+
 ![Succes Kid](images/success_kid.jpg)
 
 ## Resources
