@@ -77,7 +77,7 @@ GitHub will give instructions on how to initialize a new repository in your Term
 
 In RStudio: Tools > Version Control > Project Setup
 
-![version control](images/project_version_control.jpg)
+![version control](images/proejct_version_control.jpg)
 
 Choose **git** as the version control system
 
