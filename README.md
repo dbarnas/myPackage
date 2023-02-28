@@ -1,7 +1,7 @@
 # How to create an R package
 
-*Author: Danielle Barnas*
-*Created February 25, 2023*
+*Author: Danielle Barnas*  
+*Created February 25, 2023*  
 
 ![what like it's hard meme](images/like_its_hard.jpg)
 
