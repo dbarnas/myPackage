@@ -117,13 +117,20 @@ Open a new .R file
 
 ![script example](images/mooreasgd_ex_function.jpg)
 
+Copy and paste the following into your R script:
+
     #' my_function
     #'
-    #' This function will add two parameters together and return the sum
+    #' This function will add two parameters together and return the sum.
+    #' Instructional formatting to learn how to build a function for a package using roxygen2.
+    #' 
+    #' Created by: Danielle Barnas
+    #' Created on: February 25, 2023
+    #' Modified on: February 28, 2023
     #'
     #' @param parameter_one Numerical value added to parameter_two
     #' @param parameter_two Numerical value added to param_one
-    #' return Sum of two parameters will be returned
+    #' @return Sum of two parameters will be returned
     #' @export
     my_function <- function(parameter_one, parameter_two){
     
@@ -131,6 +138,8 @@ Open a new .R file
     
     return(my_sum)
     }
+
+
 
 ### 7. Save your script (same name as your function)
 
